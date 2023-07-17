@@ -1,0 +1,52 @@
+:root {
+	/* colors */
+	--primary-100: #C5E5FC;
+	--primary-200: #A5D5F8;
+	--primary-300: #8BCBF9;
+	--primary-400: #6EBEF7;
+	--primary-500: #49A6E9;
+	--primary-600: #2D87C8;
+	--primary-700: #1A6AA2;
+	--primary-800: #104E7A;
+	--primary-900: #063251;
+
+	/* grey */
+	--grey-50: #F8FAFC;
+	--grey-100: #F1F5F9;
+	--grey-200: #E2E8F0;
+	--grey-300: #CBD5E1;
+	--grey-400: #94A3B8;
+	--grey-500: #64748B;
+	--grey-600: #475569;
+	--grey-700: #334155;
+	--grey-800: #1E293B;
+	--grey-900: #0F172A;
+
+	/* rest of the colors */
+	--black: #222;
+	--white: #FFF;
+	--red-light: #F8D7DA;
+	--red-dark: #842029;
+	--green-light: #D1E7DD;
+	--green-dark: #0F5132;
+	--small-text: 0.875rem;
+	--extra-small-text: 0.7em;
+
+	/* rest of the vars */
+	--backgroundColor: var(--grey-50);
+	--textColor: var(--grey-900);
+	--borderRadius: 0.25rem;
+	--letterSpacing: 1px;
+	--transition: 0.3s ease-in-out all;
+	--max-width: 1120px;
+	--fixed-width: 600px;
+
+	/* box shadow */
+	--shadow-1: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+	--shadow-2: 0 4px 6px -1px rgb(0 0 0 / 10%),
+		0 2px 4px -1px rgb(0 0 0 / 6%);
+	--shadow-3: 0 10px 15px -3px rgb(0 0 0 / 10%),
+		0 4px 6px -2px rgb(0 0 0 / 5%);
+	--shadow-4: 0 20px 25px -5px rgb(0 0 0 / 10%),
+		0 10px 10px -5px rgb(0 0 0 / 4%);
+}
